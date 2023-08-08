@@ -1,5 +1,5 @@
 
-class Arithmetics{
+class Arithmetics {
 	
 	public static void main(String[] args){
 		
