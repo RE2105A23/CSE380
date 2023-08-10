@@ -14,9 +14,9 @@
 //Bitwise Operataors | & ^ << >>
 //Bitwise Operators AND OR XOR Left shift and Right Shift
 
-class Operators{
+class Operators {
 	
-	public static void main(String[] args){
+	public static void main(String[] args) {
 		
 		/*
 		int a=10, b=20;

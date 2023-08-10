@@ -58,7 +58,7 @@ class ScannerUserInput {
 		
 		// WAP to calculate the area of the circle
 		
-		Scanner scan1=new Scanner (System.in);
+		Scanner scan1=new Scanner(System.in);
 		
 		//float pi=3.14f, r, area; // Remember to add "f" at the end of float value
 		
