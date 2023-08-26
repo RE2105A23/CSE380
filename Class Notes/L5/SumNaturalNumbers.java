@@ -10,6 +10,7 @@ class SumNaturalNumbers {
 		
 		Scanner scan=new Scanner(System.in);
 		
+		/*
 		int i, n, sum=0;
 		
 		System.out.print("Enter N Natural number:");
@@ -19,5 +20,10 @@ class SumNaturalNumbers {
 			sum=sum+i;
 		}
 		System.out.println("Sum="+sum);
+		*/
+		
+		//For-Each Loop
+		
+		
 	}
 }

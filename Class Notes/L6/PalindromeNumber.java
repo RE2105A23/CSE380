@@ -15,20 +15,16 @@ class PalindromeNumber {
 		
 		n=scan.nextInt();
 		
-		/*
+		
 		while(n>0){
 			remainder=n%10;
-			y=remainder;
-			System.out.println(y);
+			out=out*10+remainder;
 			n=n/10;
 		}
-		*/
 		
-		for(int i=0;n>0;i++){
-			remainder=n%10;
-			y=remainder;
-			System.out.println(y);
-			n=n/10;
-		}
+		if(out==temp)
+			System.out.print("Palindrome");
+		else
+			System.out.print("Not Palindrome");
 	}
 }

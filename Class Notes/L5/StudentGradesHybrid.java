@@ -10,7 +10,9 @@ Calculate 5
 
 import java.util.Scanner;
 
-class StudentGrades(){
+class StudentGrades {
+	
+	public static void main(String[] args) {
 
 	String name;
 	int rollnumber,sub1,sub2,sub3;
@@ -25,5 +27,5 @@ class StudentGrades(){
 	sub1=scan.nextInt();
 	
 	
-
+	}
 }
