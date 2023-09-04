@@ -1,0 +1,38 @@
+A Group of 6 friends boarded the flight from Delhi to Mumbai and while returning 2 of them returned back to Delhi from Mumbai and 3 of them visited goa and returned back to Delhi. The airline offered one-way discount of 10% and round-trip discount of 20% and Multi city discount of 30%. Now calculate the Total Price they spent for the flight ticket.
+
+Input Format
+
+User input as Flight ticket Per Person in each line as One-Way Fare Round Trip Fare Multi-City Fare
+
+Constraints
+
+Price must be greater than 0.
+
+Output Format
+
+Calculate the Total Price they spent for the flight ticket
+
+Sample Input 0
+
+5000 
+10000 
+15000
+Sample Output 0
+
+52000
+Sample Input 1
+
+10000
+20000
+50000
+Sample Output 1
+
+54000
+Sample Input 2
+
+0
+1000
+20000
+Sample Output 2
+
+Invalid Input

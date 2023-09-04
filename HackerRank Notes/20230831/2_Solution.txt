@@ -1,0 +1,47 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String inputLine = scanner.nextLine();
+        
+        // Extracting the number from the provided input using regex
+        Pattern pattern = Pattern.compile("\\d+");
+        Matcher matcher = pattern.matcher(inputLine);
+        
+        if (!matcher.find()) {
+            System.out.println("Please enter a valid two-digit number.");
+            return;
+        }
+
+        try {
+            int number = Integer.parseInt(matcher.group());
+
+            // Check if it's a two-digit number
+            if (number < 10 || number > 99) {
+                System.out.println("Invalid Input");
+                return;
+            }
+
+            // Extract digits
+            int firstDigit = number / 10;
+            int secondDigit = number % 10;
+
+            // Calculate sum and product of digits
+            int sum = firstDigit + secondDigit;
+            int product = firstDigit * secondDigit;
+
+            if (number == sum + product) {
+                System.out.println("Special two digit number");
+            } else {
+                System.out.println("Not a special two digit number");
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("Please enter a valid two-digit number.");
+        }
+    }
+}

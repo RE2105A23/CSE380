@@ -35,8 +35,8 @@ class Employee {
 	
 	public static void main(String[] args) {
 		
-		EmployeeDetail obj= new EmployeeDetail();
 		
+		EmployeeDetail obj= new EmployeeDetail();
 		obj.getData(); obj.print();
 		
 	}
