@@ -1,0 +1,6 @@
+Class Notes 20230905
+
+Exceptions
+When traversing/accessing the array
+ArrayIndexOutOfBound
+

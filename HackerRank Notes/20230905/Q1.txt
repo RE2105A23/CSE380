@@ -1,0 +1,26 @@
+Vijay and Gaurav are two friends. They are playing a game to check that whether the first word is similar to second or not. For example first word is "loop" and second is "lloooopp". These words will be considered similar as characters are same and in first word 'l' is occuring 1 time, 'o' is 2 times and 'p' is 1 time i.e occurance of 'l'= occurance of 'p' and occurance of 'o' is double than the occurance of 'l' and 'p'. Help them using program.
+
+Input Format
+
+First line will contain two space seperated words.
+
+Constraints
+
+Input will be two space seperated words only.
+
+Output Format
+
+Similar/ Not Similar
+
+Sample Input 0
+
+loop llooooopp
+Sample Output 0
+
+Not Similar
+Sample Input 1
+
+cool looc
+Sample Output 1
+
+Similar
