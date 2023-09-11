@@ -64,7 +64,9 @@ class StudentData {
 			
 			System.out.println("Student " + (i + 1) + " Data");
 			System.out.print("Enter Rollnumber: ");
-			rollnumber[i] = scan.nextInt();
+			//rollnumber[i] = scan.nextInt();
+			//get the value for integer as string and parse it to integer using parseInt
+			rollnumber[i] = Integer.parseInt(scan.nextLine());
 			scan.nextLine();  // Consume the newline left over
 			System.out.print("Enter Name: ");
 			name[i] = scan.nextLine();
@@ -85,4 +87,3 @@ class StudentData {
 		}
 	}
 }
-	

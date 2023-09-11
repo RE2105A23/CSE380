@@ -23,5 +23,5 @@ Sample Input 1
 2
 Sample Output 1
 
-&
 &&
+&
