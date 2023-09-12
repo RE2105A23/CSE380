@@ -6,8 +6,8 @@ void deposit() -> add the value to amount based on the deposit_value
 void withdraw() -> dedcut the withdrawn amount from the amount variable
 void display() -> display accno, name and balance amount
 
-In main section, declare switch case to accept the function
-deposit and withdraw and display the balance value of amount;
+In main section, declare switch case to accept the functions 
+to deposit and withdraw and display the balance value of amount;
 
 */
 
@@ -80,8 +80,8 @@ class BankAccount {
 		
 		switch(n) {
 			
-			case 1:
 					obj.deposit();
+			case 1:
 					break;
 			case 2:
 					obj.withdraw();
