@@ -1,0 +1,29 @@
+public class Student {
+    private String name;
+
+    public Student(Object name) {
+        if (name instanceof String) {
+            this.name = (String) name;
+        } else {
+            this.name = "Unknown";
+        }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public static void main(String[] args) {
+        // Sample Input 0
+        Student student1 = new Student("Rahul");
+        Student student2 = new Student(33);
+        System.out.println(student1.getName()); // Output should be "Rahul"
+        System.out.println(student2.getName()); // Output should be "Unknown"
+
+        // Sample Input 1
+        Student student3 = new Student("Rahul");
+        Student student4 = new Student('&');
+        //System.out.println(student3.getName()); // Output should be "Rahul"
+        //System.out.println(student4.getName()); // Output should be "Unknown"
+    }
+}
